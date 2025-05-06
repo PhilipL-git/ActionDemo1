@@ -1,11 +1,9 @@
 name: First Github Action
-
 inputs:
   who-to-greet:
     description: 'Who to greet in the log'
     required: true
     default: 'World'
-    type: string
 outputs:
   time:
   description: 'The time we said hello.'
